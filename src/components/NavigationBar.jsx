@@ -68,8 +68,8 @@ function NavigationBar() {
         <div className="text-sm lg:flex-grow">
           {isLogin ? (
             <>
-              <LinkDiv path="/" title="Challenges"></LinkDiv>
-              <LinkDiv path="/myaccount/1" title="My Progress"></LinkDiv>
+              <LinkDiv path="/challenges" title="Challenges"></LinkDiv>
+              <LinkDiv path="/myprogress/1" title="My Progress"></LinkDiv>
             </>
           ) : null}
 
@@ -77,7 +77,11 @@ function NavigationBar() {
             <>
               <LinkDiv path="/logout" title="Logout"></LinkDiv>
             </>
-          ) : null}
+          ) : (
+            <>
+              <LinkDiv path="/signup" title="Signup"></LinkDiv>
+            </>
+          )}
         </div>
         <div className="hidden lg:block">
           {isLogin ? (

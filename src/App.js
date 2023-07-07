@@ -7,7 +7,7 @@ function App() {
     <div className="App pt-28">
       <Routes>
         <Route path="/about" element={<About />} />
-        <Route path="/create-campaign" element={<Challenges />} />
+        <Route path="/challenges" element={<Challenges />} />
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
         <Route path="/myprogress/:id" element={<MyProgress />} />

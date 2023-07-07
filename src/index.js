@@ -1,16 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router } from "react-router-dom";
-import NavigationBar from './components/NavigationBar';
+import { NavigationBar } from "./components";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Router basename="asl-frontend">
-      <NavigationBar/>
+      <NavigationBar />
       <App />
     </Router>
   </React.StrictMode>
