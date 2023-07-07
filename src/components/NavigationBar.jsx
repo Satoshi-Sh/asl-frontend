@@ -33,7 +33,7 @@ function NavigationBar() {
   return (
     <nav className="flex fixed w-full items-center justify-between flex-wrap p-6 bg-green-200">
       <Link to="/" className="flex items-center flex-shrink-0 mr-6 gap-2">
-        <img src={logo} alt="hand sign log" className="w-8 h-8"></img>
+        <img src={logo} alt="hand sign logo" className="w-8 h-8"></img>
         <span className="font-semibold text-2xl tracking-tigh text-black font-serif italic font-medium hover:text-white">
           Learn ASL
         </span>
@@ -53,7 +53,11 @@ function NavigationBar() {
           </svg>
         </button>
         {isLogin ? (
-          <img src={defaultAvatar} alt="default avatar" className="w-8 h-8" />
+          <img
+            src={defaultAvatar}
+            alt="default avatar"
+            className="w-8 h-8 rounded-full"
+          />
         ) : null}
       </div>
       <div
@@ -72,6 +76,17 @@ function NavigationBar() {
           {isLogin ? (
             <>
               <LinkDiv path="/logout" title="Logout"></LinkDiv>
+            </>
+          ) : null}
+        </div>
+        <div className="hidden lg:block">
+          {isLogin ? (
+            <>
+              <img
+                src={defaultAvatar}
+                alt="default avatar"
+                className="w-8 h-8 rounded-full"
+              />
             </>
           ) : null}
         </div>
