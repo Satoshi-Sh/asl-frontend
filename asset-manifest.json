@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/asl-frontend/static/css/main.87215a09.css",
+    "main.js": "/asl-frontend/static/js/main.6e70d122.js",
+    "static/js/787.a8bad097.chunk.js": "/asl-frontend/static/js/787.a8bad097.chunk.js",
+    "static/media/number05_grey_fixed.png": "/asl-frontend/static/media/number05_grey_fixed.71d245afa761473cfccd.png",
+    "static/media/landing-image.png": "/asl-frontend/static/media/landing-image.c2d54a3ae4ab857183fa.png",
+    "static/media/number04_grey_fixed.png": "/asl-frontend/static/media/number04_grey_fixed.711fb56321b5021a81e7.png",
+    "static/media/number03_grey_fixed.png": "/asl-frontend/static/media/number03_grey_fixed.cc45df5880b2144262ab.png",
+    "static/media/number06_grey_fixed.png": "/asl-frontend/static/media/number06_grey_fixed.803d0f3fc4058cf23ef0.png",
+    "static/media/number02_grey_fixed.png": "/asl-frontend/static/media/number02_grey_fixed.02de4dcba6feaf91919b.png",
+    "static/media/number01_grey_fixed.png": "/asl-frontend/static/media/number01_grey_fixed.3ae34d2989f7b3efb066.png",
+    "static/media/logo.png": "/asl-frontend/static/media/logo.5a5515def157dbb221ed.png",
+    "index.html": "/asl-frontend/index.html",
+    "main.87215a09.css.map": "/asl-frontend/static/css/main.87215a09.css.map",
+    "main.6e70d122.js.map": "/asl-frontend/static/js/main.6e70d122.js.map",
+    "787.a8bad097.chunk.js.map": "/asl-frontend/static/js/787.a8bad097.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87215a09.css",
+    "static/js/main.6e70d122.js"
+  ]
+}
