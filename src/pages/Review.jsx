@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { one } from "../assets";
+import { imageMap } from "../assets";
 
 const alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
@@ -20,12 +20,16 @@ const Alphabet = ({ character, imagePath }) => {
         <>
           <div className="justify-center items-center flex flex-col gap-10 overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
             <h1 className="text-3xl bg-white w-16">{character}</h1>
-            <img src={one} alt={`handsign ${character}`} />
+            <img
+              src={imageMap[`${character.toLowerCase()}`]}
+              alt={`handsign ${character}`}
+              className="w-52 h-52"
+            />
             <button onClick={handleClick} className="text-3xl">
               X
             </button>
           </div>
-          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+          <div className="fixed opacity-90 inset-0 z-40 bg-white"></div>
         </>
       ) : null}
     </>
