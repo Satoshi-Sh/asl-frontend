@@ -1,5 +1,6 @@
 import React from "react";
 import { Unit } from "../components";
+import { one, two, three, four, five, six } from "../assets";
 
 const Challenges = () => {
   const lessons = [
@@ -7,31 +8,37 @@ const Challenges = () => {
       unit: 1,
       description: "lesson content about sign language",
       completed: true,
+      imagePath: one,
     },
     {
       unit: 2,
       description: "lesson content about fingerspelling",
       completed: true,
+      imagePath: two,
     },
     {
       unit: 3,
       description: "lesson content about sign language",
       completed: true,
+      imagePath: three,
     },
     {
       unit: 4,
       description: "lesson content about fingerspelling",
       completed: true,
+      imagePath: four,
     },
     {
       unit: 5,
       description: "lesson content about sign language",
       completed: false,
+      imagePath: five,
     },
     {
       unit: 6,
       description: "lesson content about fingerspelling",
       completed: false,
+      imagePath: six,
     },
   ];
   return (

@@ -1,7 +1,6 @@
 import React from "react";
 
 const Unit = ({ lesson }) => {
-  console.log(lesson);
   return (
     <div
       className={
@@ -12,6 +11,9 @@ const Unit = ({ lesson }) => {
       <h1 className="font-serif font-light italic text-2xl mt-3">
         Unit - {lesson.unit}
       </h1>
+      <div className="w-1/2 h-1/2 mr-auto ml-auto">
+        <img src={lesson.imagePath} alt={`handsign ${lesson.unit}`}></img>
+      </div>
       <p>Unit:{lesson.description}</p>
     </div>
   );
