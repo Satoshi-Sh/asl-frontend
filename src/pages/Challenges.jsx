@@ -6,37 +6,37 @@ const Challenges = () => {
   const lessons = [
     {
       unit: 1,
-      description: "lesson content about sign language",
+      description: "Alphabet A-L",
       completed: true,
       imagePath: one,
     },
     {
       unit: 2,
-      description: "lesson content about fingerspelling",
+      description: "Alphabet M-Z",
       completed: true,
       imagePath: two,
     },
     {
       unit: 3,
-      description: "lesson content about sign language",
+      description: "Number 1-20",
       completed: true,
       imagePath: three,
     },
     {
       unit: 4,
-      description: "lesson content about fingerspelling",
+      description: "Number 20-50",
       completed: true,
       imagePath: four,
     },
     {
       unit: 5,
-      description: "lesson content about sign language",
+      description: "Basic Words",
       completed: false,
       imagePath: five,
     },
     {
       unit: 6,
-      description: "lesson content about fingerspelling",
+      description: "Basic Words 2",
       completed: false,
       imagePath: six,
     },

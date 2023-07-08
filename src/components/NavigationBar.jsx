@@ -72,7 +72,7 @@ function NavigationBar() {
               <LinkDiv path="/myprogress/1" title="My Progress"></LinkDiv>
             </>
           ) : null}
-
+          <LinkDiv path="/review" title="Review"></LinkDiv>
           {isLogin ? (
             <>
               <LinkDiv path="/logout" title="Logout"></LinkDiv>

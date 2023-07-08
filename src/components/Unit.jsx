@@ -11,7 +11,7 @@ const Unit = ({ lesson }) => {
       <h1 className="font-serif font-light italic text-2xl mt-3">
         Unit - {lesson.unit}
       </h1>
-      <div className="w-1/2 h-1/2 mr-auto ml-auto">
+      <div className="w-1/2 h-1/2 mr-auto ml-auto mt-2 mb-4">
         <img src={lesson.imagePath} alt={`handsign ${lesson.unit}`}></img>
       </div>
       <p>Unit:{lesson.description}</p>

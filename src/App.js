@@ -1,6 +1,14 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import { About, Challenges, Landing, Login, MyProgress, Signup } from "./pages";
+import {
+  About,
+  Challenges,
+  Landing,
+  Login,
+  MyProgress,
+  Signup,
+  Review,
+} from "./pages";
 
 function App() {
   return (
@@ -12,6 +20,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/myprogress/:id" element={<MyProgress />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/review" element={<Review />} />
       </Routes>
     </div>
   );
