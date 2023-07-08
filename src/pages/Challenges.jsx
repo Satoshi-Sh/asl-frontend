@@ -47,8 +47,8 @@ const Challenges = () => {
       <h3 className="mb-3 text-4xl font-extrabold">Michelle</h3>
       <h4 className="mb-3 text-2xl text-gray-400 italic">Choose Unit</h4>
       <div className="flex flex-row flex-wrap content-center justify-center max-w-2xl mr-auto ml-auto mb-10">
-        {lessons.map((lesson) => {
-          return <Unit lesson={lesson} />;
+        {lessons.map((lesson, index) => {
+          return <Unit key={index} lesson={lesson} />;
         })}
       </div>
     </div>
