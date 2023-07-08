@@ -19,6 +19,7 @@ const Alphabet = ({ character, imagePath }) => {
       {showModal ? (
         <>
           <div className="justify-center items-center flex flex-col gap-10 overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+            <h1 className="text-3xl bg-white w-16">{character}</h1>
             <img src={one} alt={`handsign ${character}`} />
             <button onClick={handleClick} className="text-3xl">
               X
