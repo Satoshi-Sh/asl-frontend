@@ -5,3 +5,4 @@
 - Amerigcan Sign Language (ASL) Definition https://en.wikipedia.org/wiki/American_Sign_Language#cite_note-5
 - Handsign 1-10 original pictures https://www.lifeprint.com/asl101/pages-signs/n/numbers1-10.htm
   modified by https://github.com/Satoshi-Sh/BackgroundRemoval/tree/add-color on add-color branch.
+- Alphabet hand sign drawings https://en.wikipedia.org/wiki/American_manual_alphabet
